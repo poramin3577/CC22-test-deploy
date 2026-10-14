@@ -26,9 +26,11 @@ import fetchContact from "../api/Contact";
     }
         ],
     },
-        
-    
+],
+{
+    basename: '/CC22-test-deploy'
+}
 
-]);
+);
 
 export default router; 
